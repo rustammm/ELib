@@ -1,0 +1,935 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: ELib\n"
+"Language: en\n"
+
+#: admin/books/manip/edit_student.php:52 loco:54873f64f1612903df0f9f56
+msgid "EMAIL"
+msgstr "EMAIL"
+
+#: account/edit.php:26 account/auth.php:30 loco:54873f68f1612903df0f9fbe
+msgid "Email"
+msgstr "Email"
+
+#: select_lib/show_settings.php:32 loco:54873f66f1612903df0f9f8c
+msgid "FTP"
+msgstr "FTP"
+
+#: select_lib/show_settings.php:11 loco:54873f66f1612903df0f9f89
+msgid "GENERAL"
+msgstr "GENERAL"
+
+#: admin/books/manip/edit_student.php:45 admin/books/all_students.php:11
+#: select_lib/edit.php:32 loco:54873f64f1612903df0f9f50
+msgid "ID"
+msgstr "ID"
+
+#: admin/users/add.php:11 loco:54873f62f1612903df0f9f2b
+msgid "Login"
+msgstr "Login"
+
+#: select_lib/show_settings.php:62 loco:54873f66f1612903df0f9f90
+msgid "MySQL"
+msgstr "MySQL"
+
+#: admin/users/add.php:12 loco:54873f63f1612903df0f9f2c
+msgid "Password"
+msgstr "Password"
+
+#: stuff/menu.php:101 stuff/menu.php:162 loco:54873f62f1612903df0f9f19
+msgid "QR"
+msgstr "QR"
+
+#: admin/users.php:23 loco:54873f63f1612903df0f9f3b
+msgid "admin"
+msgstr "admin"
+
+#: stuff/menu.php:211 stuff/menu.php:233 select_lib/auth.php:24
+#: select_lib/admin.php:16 loco:54873f62f1612903df0f9f24
+msgid "Администратор"
+msgstr "Administrator"
+
+#: stuff/menu.php:26 admin/auth.php:34 select_lib/auth.php:27
+#: account/auth.php:27 loco:54873f61f1612903df0f9f0f
+msgid "Авторизация"
+msgstr "Authorisation"
+
+#: select_lib/fmanager/menus.php:17 loco:54873f66f1612903df0f9f96
+msgid "байт"
+msgstr "byte"
+
+#: admin/books/manip/edit_student.php:50 admin/books/all_students.php:15
+#: public/rating.php:27 loco:54873f64f1612903df0f9f54
+msgid "БАЛЛЫ"
+msgstr "POINTS"
+
+#: public/student.php:134 loco:54873f67f1612903df0f9fa1
+msgid "Баллы"
+msgstr "Points"
+
+#: stuff/menu.php:28 stuff/menu.php:117 stuff/menu.php:143 stuff/menu.php:183
+#: admin/index.php:17 loco:54873f62f1612903df0f9f10
+msgid "Библиотекарь"
+msgstr "Librarian"
+
+#: admin/index.php:11 loco:54873f63f1612903df0f9f3f
+msgid "->Библиотекарь"
+msgstr "->Librarian"
+
+#: stuff/menu.php:214 loco:54873f62f1612903df0f9f25
+msgid "Библиотеки"
+msgstr "Libraries"
+
+#: admin/books/manip/edit_student.php:49 loco:54873f64f1612903df0f9f53
+msgid "БУКВА"
+msgstr "LETTER"
+
+#: admin/books/add_student.php:29 loco:54873f65f1612903df0f9f79
+msgid "Буква"
+msgstr "Letter"
+
+#: stuff/menu.php:176 loco:54873f62f1612903df0f9f22
+msgid "Быстрое добавление"
+msgstr "Multiple add"
+
+#: stuff/menu.php:29 stuff/menu.php:51 loco:54873f62f1612903df0f9f11
+msgid "Читатель"
+msgstr "Reader"
+
+#: admin/books/all_history.php:30 public/student.php:84 loco:#: 54873f64f1612903df0f9f5c
+msgid "ДАТА"
+msgstr "DATE"
+
+#: public/depts2.php:24 loco:54873f67f1612903df0f9fb0
+msgid "До"
+msgstr "To"
+
+#: stuff/menu.php:149 stuff/menu.php:156 stuff/menu.php:217
+#: admin/books/add_student.php:30 loco:54873f62f1612903df0f9f20
+msgid "Добавить"
+msgstr "Add"
+
+#: public/all_books.php:87 loco:54873f67f1612903df0f9fb2
+msgid "Добавить книгу"
+msgstr "Add book"
+
+#: admin/users.php:6 loco:54873f63f1612903df0f9f38
+msgid "Добавить Пользователя"
+msgstr "Add User"
+
+#: admin/books/all_students.php:39 loco:54873f65f1612903df0f9f7b
+msgid "Добавить ученика"
+msgstr "Add Student"
+
+#: admin/users/add.php:43 loco:54873f63f1612903df0f9f30
+msgid "Добавлен"
+msgstr "Added"
+
+#: admin/books/add_book_db.php:42 loco:54873f65f1612903df0f9f75
+msgid "->Добавление Книги"
+msgstr "->Add Book"
+
+#: admin/users/add.php:7 loco:54873f62f1612903df0f9f2a
+msgid "Добавление пользователя"
+msgstr "User adding"
+
+#: admin/books/manip/import.php:87 admin/books/br/webqr.php:66 loco:#: 54873f63f1612903df0f9f48
+msgid "Добавлено"
+msgstr "Added"
+
+#: stuff/menu.php:22 stuff/menu.php:56 stuff/menu.php:110 stuff/menu.php:171
+#: public/show_depts2.php:155 public/depts2.php:19 loco:54873f61f1612903df0f9f0e
+msgid "Долги"
+msgstr "Debts"
+
+#: public/show_depts2.php:171 loco:54873f67f1612903df0f9fae
+msgid "->Долги"
+msgstr "->Debts"
+
+#: public/show_depts2.php:50 loco:54873f67f1612903df0f9fa6
+msgid "Долгов"
+msgstr "Debts"
+
+#: public/show_depts2.php:136 loco:54873f67f1612903df0f9faa
+msgid "Долгов нет"
+msgstr "No debts"
+
+#: stuff/menu.php:88 loco:54873f62f1612903df0f9f16
+msgid "ELib Библиотекарь"
+msgstr "ELib Librarian"
+
+#: account/info.php:25 loco:54873f68f1612903df0f9fc5
+msgid "Email адрес"
+msgstr "Email address"
+
+#: admin/books/manip/import.php:54 loco:54873f63f1612903df0f9f46
+msgid "Файл CSV"
+msgstr "CSV File"
+
+#: stuff/menu.php:221 loco:54873f62f1612903df0f9f27
+msgid "Файлы"
+msgstr "Files"
+
+#: admin/books/manip/edit_student.php:47 admin/books/all_students.php:13 loco:#: 54873f64f1612903df0f9f52
+msgid "ФАМИЛИЯ"
+msgstr "SURNAME"
+
+#: admin/books/add_student.php:27 public/student.php:132
+#: public/show_depts2.php:44 public/rating.php:25 loco:54873f65f1612903df0f9f78
+msgid "Фамилия"
+msgstr "Surname"
+
+#: admin/books/br/qr_gen.php:141 loco:54873f65f1612903df0f9f6d
+msgid "Формировка"
+msgstr "Forming"
+
+#: select_lib/show_settings.php:37 loco:54873f66f1612903df0f9f8d
+msgid "FTP Host"
+msgstr "FTP Host"
+
+#: select_lib/show_settings.php:54 loco:54873f66f1612903df0f9f8f
+msgid "FTP Password"
+msgstr "FTP Password"
+
+#: select_lib/show_settings.php:46 loco:54873f66f1612903df0f9f8e
+msgid "FTP User Name"
+msgstr "FTP User Name"
+
+#: stuff/menu.php:104 stuff/menu.php:165 loco:54873f62f1612903df0f9f1b
+msgid "Генератор"
+msgstr "Generator"
+
+#: stuff/menu.php:105 stuff/menu.php:166 loco:54873f62f1612903df0f9f1c
+msgid "Генератор Lite"
+msgstr "Generator Lite"
+
+#: stuff/menu.php:119 stuff/menu.php:185 stuff/menu.php:235 loco:#: 54873f62f1612903df0f9f1e
+msgid "Главная"
+msgstr "Home"
+
+#: index.php:14 loco:54873f65f1612903df0f9f7c
+msgid "->Главная"
+msgstr "->Home"
+
+#: admin/books/br/qr_gen_lite.php:130 admin/books/br/qr_gen.php:147 loco:#: 54873f64f1612903df0f9f63
+msgid "Готово"
+msgstr "Ready"
+
+#: select_lib/show_settings.php:16 loco:54873f66f1612903df0f9f8a
+msgid "HTTP Адрес"
+msgstr "HTTP Adress"
+
+#: stuff/menu.php:174 loco:54873f62f1612903df0f9f21
+msgid "Импортирование"
+msgstr "Imort"
+
+#: admin/books/manip/edit_student.php:46 admin/books/all_students.php:12 loco:#: 54873f64f1612903df0f9f51
+msgid "ИМЯ"
+msgstr "NAME"
+
+#: admin/books/add_student.php:26 public/student.php:131
+#: public/show_depts2.php:41 public/rating.php:24 loco:54873f65f1612903df0f9f77
+msgid "Имя"
+msgstr "Name"
+
+#: admin/books/br/qr_gen.php:79 loco:54873f65f1612903df0f9f6a
+msgid "Инф"
+msgstr "Info"
+
+#: public/student.php:168 public/student_data_only.php:40 loco:#: 54873f67f1612903df0f9fa5
+msgid "->Инфомация об ученике"
+msgstr "->Student information"
+
+#: stuff/menu.php:229 admin/books/br/qr_gen_lite.php:55
+#: admin/books/br/qr_gen.php:54 select_lib/show_settings.php:6 loco:#: 54873f62f1612903df0f9f28
+msgid "Информация"
+msgstr "Information"
+
+#: public/student.php:35 loco:54873f66f1612903df0f9f9e
+msgid "Информация о книге"
+msgstr "Book information"
+
+#: stuff/menu.php:65 stuff/menu.php:120 stuff/menu.php:186 loco:#: 54873f62f1612903df0f9f14
+msgid "История"
+msgstr "Logs"
+
+#: public/student.php:143 public/student.php:144 loco:54873f67f1612903df0f9fa4
+msgid "ИСТОРИЯ"
+msgstr "LOGS"
+
+#: stuff/functions.php:229 loco:54873f61f1612903df0f9efd
+msgid "История сохранена"
+msgstr "Logs are saved"
+
+#: admin/users/change_status.php:16 admin/users/change_password.php:18
+#: select_lib/fmanager/menus.php:28 loco:54873f62f1612903df0f9f29
+msgid "Изменён"
+msgstr "Editted"
+
+#: account/edit.php:39 account/edit.php:46 loco:54873f68f1612903df0f9fc0
+msgid "Измененить"
+msgstr "Edit"
+
+#: admin/users/change_password.php:8 select_lib/al_libs.php:37
+#: account/info.php:27 account/info.php:32 account/info.php:37 loco:#: 54873f63f1612903df0f9f32
+msgid "Изменить"
+msgstr "Edit"
+
+#: admin/books/all_students.php:34 public/book.php:89 loco:#: 54873f65f1612903df0f9f7a
+msgid "ИЗМЕНИТЬ"
+msgstr "EDIT"
+
+#: admin/users.php:36 loco:54873f63f1612903df0f9f3e
+msgid "ИЗМЕНИТЬ ПАРОЛЬ"
+msgstr "CHANGE PASSWORD"
+
+#: admin/users.php:32 loco:54873f63f1612903df0f9f3d
+msgid "ИЗМЕНИТЬ СТАТУС"
+msgstr "CHANGE STATUS"
+
+#: admin/books/manip/edit_book.php:42 admin/books/all_history.php:31
+#: admin/books/add_book_db.php:35 public/student.php:85
+#: public/book_data_only.php:26 public/all_books.php:18
+#: public/from_kitap.php:55 public/book.php:38 loco:54873f64f1612903df0f9f4e
+msgid "КАТЕГОРИЯ"
+msgstr "CATEGORY"
+
+#: admin/books/manip/edit_book.php:41 admin/books/manip/edit_student.php:48
+#: admin/books/add_book_db.php:36 admin/books/all_students.php:14
+#: public/book_data_only.php:30 public/all_books.php:16
+#: public/from_kitap.php:59 public/book.php:36 loco:54873f64f1612903df0f9f4d
+msgid "КЛАСС"
+msgstr "GRADE"
+
+#: admin/books/br/show.php:174 admin/books/add_student.php:28
+#: public/student.php:133 public/show_depts2.php:47 public/rating.php:26 loco:#: 54873f65f1612903df0f9f6f
+msgid "Класс"
+msgstr "Grade"
+
+#: public/all_books.php:28 loco:54873f67f1612903df0f9fb1
+msgid "книг в нашей базе данных"
+msgstr "books in our Data Base"
+
+#: admin/books/br/show_ajax.php:103 loco:54873f65f1612903df0f9f66
+msgid "книг(а) изменили статус"
+msgstr "book(s) changed status"
+
+#: stuff/menu.php:19 stuff/menu.php:53 stuff/menu.php:64 stuff/menu.php:93
+#: stuff/menu.php:153 admin/books/manip/import.php:39
+#: admin/books/br/qr_gen_lite.php:56 admin/books/br/qr_gen.php:55 loco:#: 54873f61f1612903df0f9f0c
+msgid "Книги"
+msgstr "Books"
+
+#: public/student.php:141 public/student.php:142 loco:54873f67f1612903df0f9fa3
+msgid "КНИГИ"
+msgstr "BOOKS"
+
+#: public/show_depts2.php:157 loco:54873f67f1612903df0f9fab
+msgid "Книги взятые в промежутке между"
+msgstr "Books taken between"
+
+#: public/student.php:24 loco:54873f66f1612903df0f9f9d
+msgid "КОГДА БЫЛ ВЗЯТ"
+msgstr "TAKEN TIME"
+
+#: public/book.php:41 loco:54873f67f1612903df0f9fba
+msgid "КОГДА ВЗЯЛИ"
+msgstr "DATA TAKEN"
+
+#: admin/books/all_history.php:28 loco:54873f64f1612903df0f9f5a
+msgid "КОМУ"
+msgstr "WHOM"
+
+#: admin/auth.php:37 loco:54873f63f1612903df0f9f41
+msgid "Логин"
+msgstr "Login"
+
+#: admin/books/add_book_db.php:32 loco:54873f65f1612903df0f9f74
+msgid "МАКСИМАЛЬНЫЙ СЕРИЙНЫЙ НОМЕР 2"
+msgstr "MAXIMAL SERIAL NUMBER 2"
+
+#: public/student.php:135 loco:54873f67f1612903df0f9fa2
+msgid "Место в рейтинге"
+msgstr "Ranking place"
+
+#: public/show_depts2.php:158 loco:54873f67f1612903df0f9fac
+msgid "(Месяц, День, Год)"
+msgstr "(Month, Day, Year)"
+
+#: select_lib/fmanager/menus.php:24 loco:54873f66f1612903df0f9f98
+msgid "Модифицирован"
+msgstr "Modified"
+
+#: stuff/menu.php:60 loco:54873f62f1612903df0f9f12
+msgid "Мой Аккаунт"
+msgstr "My Account"
+
+#: select_lib/show_settings.php:67 loco:54873f66f1612903df0f9f91
+msgid "MySQL Host"
+msgstr "MySQL Host "
+
+#: select_lib/show_settings.php:84 loco:54873f66f1612903df0f9f93
+msgid "MySQL Password"
+msgstr "MySQL Password"
+
+#: select_lib/show_settings.php:76 loco:54873f66f1612903df0f9f92
+msgid "MySQL Username"
+msgstr "MySQL Username"
+
+#: index.php:18 loco:54873f65f1612903df0f9f7d
+msgid "Найти меня"
+msgstr "Find me"
+
+#: admin/books/all_history.php:13 public/student.php:65 loco:#: 54873f64f1612903df0f9f58
+msgid "Настройки"
+msgstr "Settings"
+
+#: admin/books/manip/edit_book.php:39 select_lib/index.php:21
+#: select_lib/al_libs.php:11 public/student.php:21
+#: public/book_data_only.php:18 public/all_books.php:13
+#: public/from_kitap.php:51 public/book.php:33 loco:54873f64f1612903df0f9f4b
+msgid "НАЗВАНИЕ"
+msgstr "NAME"
+
+#: admin/books/br/show.php:171 loco:54873f65f1612903df0f9f6e
+msgid "Название"
+msgstr "Name"
+
+#: select_lib/al_libs.php:14 loco:54873f66f1612903df0f9f86
+msgid "НАЗВАНИЕ БАЗЫ ДАННЫХ"
+msgstr "Data Base Name"
+
+#: select_lib/edit.php:33 select_lib/add.php:32 loco:54873f65f1612903df0f9f81
+msgid "Название библиотеки"
+msgstr "Library name"
+
+#: admin/books/add_book_db.php:29 loco:54873f65f1612903df0f9f73
+msgid "НАЗВАНИЕ КНИГИ"
+msgstr "NAME OF THE BOOK"
+
+#: select_lib/show_settings.php:24 loco:54873f66f1612903df0f9f8b
+msgid "Название сайта"
+msgstr "Site name"
+
+#: public/book.php:76 loco:54873f68f1612903df0f9fbc
+msgid "НЕ В БИБЛИОТЕКЕ"
+msgstr "NOT IN LIBRARY"
+
+#: select_lib/al_libs.php:32 loco:54873f66f1612903df0f9f87
+msgid "Не виден"
+msgstr "Invisible"
+
+#: public/student_data_only.php:13 loco:54873f67f1612903df0f9fb3
+msgid "Не выбран"
+msgstr "Not selected"
+
+#: admin/books/br/show_ajax.php:91 loco:54873f64f1612903df0f9f65
+msgid "Неправильный пароль"
+msgstr "Incorrect password"
+
+#: account/editor.php:20 loco:54873f68f1612903df0f9fc2
+msgid "Несовпадение"
+msgstr "Mismatch"
+
+#: admin/users.php:11 loco:54873f63f1612903df0f9f39
+msgid "НИК"
+msgstr "NICK"
+
+#: stuff/functions.php:421 loco:54873f61f1612903df0f9f08
+msgid "номер"
+msgstr "number"
+
+#: public/student.php:55 loco:54873f67f1612903df0f9f9f
+msgid "ОБЩАЯ ЦЕНА"
+msgstr "TOTAL PICE"
+
+#: select_lib/index.php:25 select_lib/al_libs.php:21 loco:54873f65f1612903df0f9f7f
+msgid "ОПЦИЯ"
+msgstr "OPTION"
+
+#: public/show_depts2.php:53 loco:54873f67f1612903df0f9fa7
+msgid "Опция 1"
+msgstr "Option 1"
+
+#: public/show_depts2.php:56 loco:54873f67f1612903df0f9fa8
+msgid "Опция 2"
+msgstr "Option 2"
+
+#: account/edit.php:16 loco:54873f68f1612903df0f9fbd
+msgid "Ощибка"
+msgstr "Error"
+
+#: stuff/functions.php:211 stuff/functions.php:226 stuff/functions.php:237
+#: stuff/functions.php:260 stuff/functions.php:271 stuff/functions.php:281
+#: stuff/functions.php:300 stuff/functions.php:321 stuff/functions.php:337
+#: stuff/functions.php:360 admin/users/change_status.php:18
+#: admin/users/add.php:38 admin/users/add.php:46
+#: admin/users/change_password.php:21 admin/auth.php:26
+#: admin/books/manip/delete_book.php:7 admin/books/manip/import.php:82
+#: admin/books/manip/import.php:90 admin/books/manip/edit_book.php:17
+#: admin/books/manip/edit_student.php:22
+#: admin/books/manip/delete_student.php:7 admin/books/all_students.php:7
+#: select_lib/edit.php:15 select_lib/add.php:12 select_lib/add.php:22
+#: select_lib/fmanager/upload.php:12 public/student.php:13
+#: public/student.php:77 public/show_depts2.php:103 public/all_books.php:9
+#: public/rating.php:13 public/book.php:29 account/editor.php:20
+#: account/editor.php:25 account/editor.php:36 account/editor.php:47 loco:#: 54873f61f1612903df0f9efa
+msgid "Ошибка"
+msgstr "Error"
+
+#: admin/users/users_delete.php:26 admin/books/manip/edit_student.php:32
+#: public/data.php:9 public/data.php:23 loco:54873f63f1612903df0f9f37
+msgid "ОШИБКА"
+msgstr "ERROR"
+
+#: admin/books/br/show_ajax.php:53 loco:54873f64f1612903df0f9f64
+msgid "Ошибка Базы Данных"
+msgstr "Data Base error"
+
+#: select_lib/add.php:12 loco:54873f66f1612903df0f9f83
+msgid "Ошибка добавления библиотеки"
+msgstr "An error occurred while adding the book"
+
+#: select_lib/add.php:22 loco:54873f66f1612903df0f9f84
+msgid "Ошибка добавления пользователя"
+msgstr "An error occurred while adding the user"
+
+#: stuff/functions.php:53 stuff/functions.php:57 stuff/functions.php:61
+#: stuff/functions.php:66 admin/books/br/show_ajax.php:119 loco:#: 54873f61f1612903df0f9ef5
+msgid "Ошибка доступа"
+msgstr "Access error"
+
+#: admin/books/br/show_ajax.php:106 admin/books/br/show_ajax.php:110 loco:#: 54873f65f1612903df0f9f67
+msgid "Ошибка изменения статусов книг. Попбробуйте снова"
+msgstr "An error occurred while changing statuses of books. Try again"
+
+#: stuff/functions.php:260 loco:54873f61f1612903df0f9eff
+msgid "Ошибка при добавлении книги в библиотеку"
+msgstr "An error occurred while adding the book to the library"
+
+#: stuff/functions.php:321 loco:54873f61f1612903df0f9f03
+msgid "Ошибка при добавлении ученика"
+msgstr "An error occurred while adding the student"
+
+#: stuff/functions.php:226 loco:54873f61f1612903df0f9efc
+msgid "Ошибка при отправке истории"
+msgstr "An error occurred while sending logs"
+
+#: public/rating.php:13 loco:54873f67f1612903df0f9fb5
+msgid "Ошибка при подключении к MySQL"
+msgstr "MySQL connection error"
+
+#: stuff/functions.php:271 stuff/functions.php:281 loco:54873f61f1612903df0f9f00
+msgid "Ошибка при попытке нахождения информации книге"
+msgstr "An error occured while finding the book information"
+
+#: stuff/functions.php:337 loco:54873f61f1612903df0f9f05
+msgid "Ошибка при попытке нахождения информации об ученике"
+msgstr "Error\n"
+" \n"
+"when trying to\n"
+" \n"
+"find information\n"
+" \n"
+"about the student"
+
+#: stuff/functions.php:211 loco:54873f61f1612903df0f9efb
+msgid "Ошибка при построение фильтра"
+msgstr "An error occurred while\n"
+" \n"
+"building\n"
+" \n"
+"the filter"
+
+#: stuff/functions.php:237 loco:54873f61f1612903df0f9efe
+msgid "Ошибка при при проверки на существование элемента"
+msgstr "An error occurred while\n"
+" \n"
+"checking\n"
+" element existence"
+
+#: stuff/functions.php:360 loco:54873f61f1612903df0f9f06
+msgid "Ошибка при составлени рейтинга"
+msgstr "Ranking error"
+
+#: admin/books/manip/delete_book.php:7 loco:54873f63f1612903df0f9f43
+msgid "Ошибка при удаление"
+msgstr "An error occured while deleting"
+
+#: admin/books/manip/delete_student.php:7 loco:54873f64f1612903df0f9f57
+msgid "Ошибка при удалении"
+msgstr "An error occerred while deleting"
+
+#: stuff/functions.php:300 loco:54873f61f1612903df0f9f01
+msgid "Ошибка при удалении книги"
+msgstr "An error occurred while deleting the book"
+
+#: admin/books/br/webqr.php:62 loco:54873f64f1612903df0f9f60
+msgid "Ошибка сервера. Повторите попытку"
+msgstr "Server error. Try again"
+
+#: admin/books/br/webqr.php:36 admin/books/br/show.php:69 loco:#: 54873f64f1612903df0f9f5d
+msgid "Ошибка соединения"
+msgstr "Connection error"
+
+#: public/depts2.php:22 loco:54873f67f1612903df0f9faf
+msgid "От"
+msgstr "From"
+
+#: admin/users/users_delete.php:18 loco:54873f63f1612903df0f9f35
+msgid "ОТМЕНЁН"
+msgstr "CANCELLED"
+
+#: admin/books/br/qr_gen.php:84 loco:54873f65f1612903df0f9f6c
+msgid "Панель"
+msgstr "Panel"
+
+#: select_lib/fmanager/menus.php:6 loco:54873f66f1612903df0f9f94
+msgid "Папка"
+msgstr "Folder"
+
+#: admin/users/change_password.php:7 admin/auth.php:38 select_lib/auth.php:31
+#: account/edit.php:29 account/auth.php:31 account/info.php:35 loco:#: 54873f63f1612903df0f9f31
+msgid "Пароль"
+msgstr "Password"
+
+#: admin/books/manip/edit_student.php:51 loco:54873f64f1612903df0f9f55
+msgid "ПАРОЛЬ"
+msgstr "PASSWORD"
+
+#: account/editor.php:36 loco:54873f68f1612903df0f9fc4
+msgid "Пароль неверен"
+msgstr "Incorrect password"
+
+#: account/info.php:30 loco:54873f68f1612903df0f9fc6
+msgid "PIN код"
+msgstr "PIN code"
+
+#: account/edit.php:32 loco:54873f68f1612903df0f9fbf
+msgid "Пин-код (6 цифр)"
+msgstr "PIN code (6 digits)"
+
+#: account/editor.php:25 loco:54873f68f1612903df0f9fc3
+msgid "Пин-код не из 6 цифр"
+msgstr "Wrong Pin code format"
+
+#: public/rating.php:53 loco:54873f67f1612903df0f9fb6
+msgid "Подробнее"
+msgstr "More"
+
+#: admin/users/add.php:38 loco:54873f63f1612903df0f9f2f
+msgid "Пользователь с таким логином уже существует!"
+msgstr "User with same login already exists"
+
+#: stuff/menu.php:188 loco:54873f62f1612903df0f9f23
+msgid "Пользователи"
+msgstr "Users"
+
+#: stuff/config.php:24 loco:54873f61f1612903df0f9f0b
+msgid "Поменять Библеотеку"
+msgstr "Change library"
+
+#: select_lib/fmanager/menus.php:20 loco:54873f66f1612903df0f9f97
+msgid "Посещён"
+msgstr "Visited"
+
+#: stuff/menu.php:97 stuff/menu.php:158 loco:54873f62f1612903df0f9f18
+msgid "Приём/Выдача"
+msgstr "Receive/Lend"
+
+#: admin/books/manip/import.php:46 loco:54873f63f1612903df0f9f45
+msgid "Разделитель"
+msgstr "Devider"
+
+#: select_lib/fmanager/menus.php:16 loco:54873f66f1612903df0f9f95
+msgid "Размер"
+msgstr "Size"
+
+#: admin/users/add.php:16 loco:54873f63f1612903df0f9f2d
+msgid "Разрешить полное редактирование данных"
+msgstr "Allow\n"
+" \n"
+"full\n"
+" \n"
+"data editing"
+
+#: stuff/menu.php:62 loco:54873f62f1612903df0f9f13
+msgid "Редактировать"
+msgstr "Edit"
+
+#: public/rating.php:7 loco:54873f67f1612903df0f9fb4
+msgid "Рейтинг"
+msgstr "Rating"
+
+#: public/rating.php:59 loco:54873f67f1612903df0f9fb7
+msgid "->Рейтинг"
+msgstr "->Rating"
+
+#: stuff/menu.php:103 stuff/menu.php:164 loco:54873f62f1612903df0f9f1a
+msgid "Считыватель"
+msgstr "Reader"
+
+#: admin/books/manip/edit_book.php:38 admin/books/add_book_db.php:31
+#: public/student.php:22 public/all_books.php:14 public/book.php:34 loco:#: 54873f64f1612903df0f9f4a
+msgid "СЕРИЙНЫЙ НОМЕР 1"
+msgstr "SERIAL NUMBER\n"
+" \n"
+"1"
+
+#: admin/books/br/show.php:177 loco:54873f65f1612903df0f9f70
+msgid "Серийный номер 1"
+msgstr "Serial number 1"
+
+#: admin/books/br/show.php:180 loco:54873f65f1612903df0f9f71
+msgid "Серийный номер 2"
+msgstr "Serial number 2"
+
+#: public/student.php:23 public/book.php:35 loco:54873f66f1612903df0f9f9c
+msgid "СЕРИЙНЫЙ НОМЕР 2"
+msgstr "SERIAL NUMBER 2"
+
+#: public/book.php:17 loco:54873f67f1612903df0f9fb8
+msgid "СКАЧАТЬ"
+msgstr "DOWNLOAD"
+
+#: admin/books/br/qr_gen.php:82 select_lib/edit.php:34 loco:#: 54873f65f1612903df0f9f6b
+msgid "Скрыть"
+msgstr "Hide"
+
+#: public/show_depts2.php:163 loco:54873f67f1612903df0f9fad
+msgid "Скрыть Опции"
+msgstr "Hide options"
+
+#: public/show_depts2.php:86 loco:54873f67f1612903df0f9fa9
+msgid "Скрыть ученика"
+msgstr "Hide student"
+
+#: admin/books/all_history.php:19 select_lib/edit.php:35 public/student.php:71 #: loco:54873f64f1612903df0f9f59
+msgid "Сохранить"
+msgstr "Save"
+
+#: admin/books/all_history.php:29 loco:54873f64f1612903df0f9f5b
+msgid "СООБЩЕНИЕ"
+msgstr "MESSAGE"
+
+#: public/student.php:83 loco:54873f67f1612903df0f9fa0
+msgid "СООБЩЕНИЯ"
+msgstr "MESSAGES"
+
+#: select_lib/add.php:25 loco:54873f66f1612903df0f9f85
+msgid "Создан библиотекарь с Логином и Паролем: <b> admin </b>"
+msgstr "The Librarian with Login and Password:<b> admin </b> was created"
+
+#: admin/books/br/qr_gen_lite.php:128 admin/books/br/qr_gen.php:145 loco:#: 54873f64f1612903df0f9f62
+msgid "Создание QR"
+msgstr "QR generating"
+
+#: admin/users/add.php:20 select_lib/add.php:33 loco:54873f63f1612903df0f9f2e
+msgid "Создать"
+msgstr "Add"
+
+#: admin/users.php:12 select_lib/al_libs.php:17 public/book.php:39 loco:#: 54873f63f1612903df0f9f3a
+msgid "СТАТУС"
+msgstr "STATUS"
+
+#: admin/books/manip/import.php:31 loco:54873f63f1612903df0f9f44
+msgid "Таблица"
+msgstr "Table"
+
+#: admin/books/br/webqr.php:58 loco:54873f64f1612903df0f9f5f
+msgid "Такой книги или ученика не существут!"
+msgstr "Such book or student doesn't exist"
+
+#: admin/books/manip/edit_book.php:43 admin/books/add_book_db.php:37
+#: public/student.php:25 public/book_data_only.php:34 public/all_books.php:22
+#: public/book.php:42 loco:54873f64f1612903df0f9f4f
+msgid "ЦЕНА"
+msgstr "PRICE"
+
+#: public/book.php:40 loco:54873f67f1612903df0f9fb9
+msgid "У КОГО"
+msgstr "AT WHOM"
+
+#: admin/books/br/webqr.php:54 loco:54873f64f1612903df0f9f5e
+msgid "У вас нет доступа!"
+msgstr "You do not have\n"
+" \n"
+"access\n"
+"!"
+
+#: admin/books/br/show.php:190 loco:54873f65f1612903df0f9f72
+msgid "У вас старый браузер"
+msgstr "You have\n"
+" \n"
+"an old browser"
+
+#: stuff/functions.php:383 loco:54873f61f1612903df0f9f07
+msgid "УЧЕНИК ОТСУТСТВУЕТ"
+msgstr "STUDENT DOES'T EXIST"
+
+#: stuff/menu.php:20 stuff/menu.php:54 stuff/menu.php:91 stuff/menu.php:146
+#: admin/books/manip/import.php:36 admin/books/br/qr_gen.php:77 loco:#: 54873f61f1612903df0f9f0d
+msgid "Ученики"
+msgstr "Students"
+
+#: admin/users/users_delete.php:23 loco:54873f63f1612903df0f9f36
+msgid "УДАЛЁН"
+msgstr "DELETED"
+
+#: select_lib/fmanager/menus.php:46 select_lib/fmanager/menus.php:51
+#: select_lib/fmanager/delete.php:11 select_lib/fmanager/delete.php:16 loco:#: 54873f66f1612903df0f9f99
+msgid "Удалён"
+msgstr "Deleted"
+
+#: admin/users/users_delete.php:12 admin/users.php:40
+#: admin/books/all_students.php:33 public/all_books.php:62 public/book.php:88 loco:#: 54873f63f1612903df0f9f34
+msgid "УДАЛИТЬ"
+msgstr "DELETE"
+
+#: admin/users.php:25 loco:54873f63f1612903df0f9f3c
+msgid "user"
+msgstr "user"
+
+#: admin/books/manip/edit_book.php:20 admin/books/manip/edit_student.php:25
+#: admin/books/add_book_db.php:21 account/editor.php:45 loco:#: 54873f64f1612903df0f9f49
+msgid "Успешно"
+msgstr "Success"
+
+#: stuff/functions.php:324 loco:54873f61f1612903df0f9f04
+msgid "Успешно добавлено"
+msgstr "Successfully added"
+
+#: stuff/functions.php:303 admin/books/manip/delete_book.php:10
+#: admin/books/manip/delete_student.php:10 loco:54873f61f1612903df0f9f02
+msgid "Успешно удалено"
+msgstr "Successfully deleted"
+
+#: admin/books/add_student.php:16 loco:54873f65f1612903df0f9f76
+msgid "УЖЕ СУЩЕСТВУЕТ"
+msgstr "ALREADY EXISTS"
+
+#: stuff/functions.php:436 loco:54873f61f1612903df0f9f09
+msgid "В библиотеке"
+msgstr "In library"
+
+#: stuff/functions.php:463 loco:54873f61f1612903df0f9f0a
+msgid "В Библиотеке"
+msgstr "In library"
+
+#: public/book.php:72 loco:54873f68f1612903df0f9fbb
+msgid "В БИБЛИОТЕКЕ"
+msgstr "IN LIBRARY"
+
+#: admin/books/br/qr_gen.php:76 admin/books/br/qr_gen.php:78
+#: admin/books/br/qr_gen.php:80 loco:54873f65f1612903df0f9f69
+msgid "Вид"
+msgstr "View"
+
+#: select_lib/al_libs.php:34 loco:54873f66f1612903df0f9f88
+msgid "Виден"
+msgstr "Visible"
+
+#: admin/auth.php:39 select_lib/auth.php:33 account/auth.php:32 loco:#: 54873f63f1612903df0f9f42
+msgid "Войти"
+msgstr "Sign in"
+
+#: admin/books/br/qr_gen.php:75 loco:54873f65f1612903df0f9f68
+msgid "ВСЁ"
+msgstr "ALL"
+
+#: stuff/menu.php:216 loco:54873f62f1612903df0f9f26
+msgid "Все Библиотеки"
+msgstr "All libraries"
+
+#: stuff/menu.php:95 stuff/menu.php:155 loco:54873f62f1612903df0f9f17
+msgid "Все Книги"
+msgstr "All Books"
+
+#: stuff/menu.php:148 loco:54873f62f1612903df0f9f1f
+msgid "Все ученики "
+msgstr "All students"
+
+#: stuff/menu.php:109 stuff/menu.php:170 loco:54873f62f1612903df0f9f1d
+msgid "Вся история"
+msgstr "All logs"
+
+#: select_lib/fmanager/dir2.php:34 loco:54873f66f1612903df0f9f9b
+msgid "Вверх"
+msgstr "UP"
+
+#: stuff/functions.php:57 loco:54873f61f1612903df0f9ef7
+msgid "Вы не Администратор"
+msgstr "You are not Administrator"
+
+#: stuff/functions.php:53 loco:54873f61f1612903df0f9ef6
+msgid "Вы не Администратор или не Библеотекарь +"
+msgstr "You are neither Administrator nor Librarian +"
+
+#: stuff/functions.php:61 loco:54873f61f1612903df0f9ef8
+msgid "Вы не Библеотекарь"
+msgstr "You are not Librarian"
+
+#: stuff/functions.php:66 loco:54873f61f1612903df0f9ef9
+msgid "Вы не вошли в систему"
+msgstr "You\n"
+" \n"
+"are not logged in"
+
+#: admin/users/users_delete.php:9 loco:54873f63f1612903df0f9f33
+msgid "ВЫ УВЕРЕНЫ?"
+msgstr "ARE YOU SURE?"
+
+#: account/auth.php:11 loco:54873f68f1612903df0f9fc1
+msgid "Вы ввели неправильный email или пароль!"
+msgstr "Incorrect email or password"
+
+#: select_lib/auth.php:15 loco:54873f66f1612903df0f9f82
+msgid "Вы ввели неправильный пароль"
+msgstr "You\n"
+" \n"
+"entered an incorrect password"
+
+#: admin/auth.php:23 loco:54873f63f1612903df0f9f40
+msgid "Вы ввели неправильный пароль или логин!"
+msgstr "You\n"
+" \n"
+"entered an incorrect password\n"
+" \n"
+"or login\n"
+"!"
+
+#: select_lib/index.php:15 loco:54873f65f1612903df0f9f7e
+msgid "Выберите любую библиотеку"
+msgstr "Choose the library"
+
+#: select_lib/index.php:35 loco:54873f65f1612903df0f9f80
+msgid "Выбрать"
+msgstr "Select"
+
+#: stuff/menu.php:67 stuff/menu.php:122 stuff/menu.php:190 stuff/menu.php:237 loco:#: 54873f62f1612903df0f9f15
+msgid "Выйти"
+msgstr "Log out"
+
+#: admin/books/manip/edit_book.php:40 admin/books/add_book_db.php:34
+#: public/book_data_only.php:22 public/all_books.php:17 public/book.php:37 loco:#: 54873f64f1612903df0f9f4c
+msgid "ЯЗЫК"
+msgstr "LANGUAGE"
+
+#: select_lib/fmanager/upload.php:10 loco:54873f66f1612903df0f9f9a
+msgid "Загружено"
+msgstr "Uploaded"
+
+#: admin/books/manip/import.php:61 select_lib/fmanager/upload.php:22
+#: select_lib/fmanager/dir2.php:37 loco:54873f63f1612903df0f9f47
+msgid "Загрузить"
+msgstr "Upload"
+
+#: admin/books/br/qr_gen_lite.php:12 admin/books/br/qr_gen.php:11
+#: select_lib/fmanager/upload.php:20 loco:54873f64f1612903df0f9f61
+msgid "Загрузка"
+msgstr "Loading"
+

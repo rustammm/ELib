@@ -1,0 +1,34 @@
+/*Обнуляем отступы*/
+ul, li {
+    margin:0;
+    padding:0;
+    list-style-type:none;   
+}
+ 
+/*Задаём параметры блока, содержащего основное меню*/
+#menu {
+    display:block;
+    position:absolute;
+    top:100px;
+    left:50px;
+         
+}
+ 
+/*Задаём стили для разделов нашего меню*/
+#menu > li {
+    display:inline-block;
+    height:20px;
+    position:relative;
+}
+ 
+/*Стили для скрытого выпадающего меню*/
+#menu > li > ul {
+    position:absolute;
+    top:20px;
+    display:none;   
+}
+ 
+/*Делаем скрытую часть видимой*/
+#menu > li:hover > ul {
+    display:block;  
+}
