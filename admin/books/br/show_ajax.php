@@ -99,7 +99,7 @@ function update_books($con, $get = false)
             $books_success++;
         }
     }
-    if ($books_num == $books_success && update_ratings($con, $books_num, $con)) {
+    if ($books_num == $books_success && update_ratings($id, $books_num, $con)) {
         $to_send["message"] = $books_success ." "._("книг(а) изменили статус");
         $to_send["last_id"] = "0";
         if (!del_in_act($con)) {
