@@ -15,11 +15,6 @@ function menu($type)
         <nav class='navigation-bar-content'>
         <a class = 'element' href='$http'>ELib</a>
         <span class='element-divider'></span>
-        <a class='element brand' href='$http/public/all_books.php'><span class='icon-book on-left'></span>"._("Книги")."</a>
-        <a class='element brand' href='$http/public/rating.php'><span class='icon-user on-left'></span>"._("Ученики")."</a>
-        <span class='element-divider'></span>
-        <a class='element' href='$http_adress/public/depts2.php'><span class='icon-warning on-left'></span>"._("Долги")."</a>
-        <span class='element-divider'></span>
         <span class='element-divider place-right'></span>
         <div class='element place-right'>
         <a class='dropdown-toggle' href='#'> "._("Авторизация")." <span class='icon-locked on-right-more'></span></a>
