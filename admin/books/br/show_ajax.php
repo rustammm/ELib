@@ -73,6 +73,11 @@ function get_info($con)
     return json_encode($to_send);
 }
 
+/**
+ * @param $con
+ * @param bool $get
+ * @return string
+ */
 function update_books($con, $get = false)
 {	
     global $SADMIN_ID;
@@ -93,10 +98,17 @@ function update_books($con, $get = false)
 	
     $res = sql_select($con, "in_act_books", "sid = ? and type = ?", array($SADMIN_ID, "book"));
     $books_num = $res->num_rows;
+
+
 	
     while ($row = $res->fetch_assoc()) {
         if (sql_update($con, "books", array("student"), array($id), "id = ?", array($row["item_id"]))) {
             $books_success++;
+            if ($id != 0) {
+                $book_info = get_book_data($row["item_id"], $con);
+                put_in_history($con, $id, "Вы взяли книгу {$book_info["name"]} с номером {$book_info["serial1"]} {$book_info["serial2"]} ");
+            }
+
         }
     }
     if ($books_num == $books_success && update_ratings($id, $books_num, $con)) {

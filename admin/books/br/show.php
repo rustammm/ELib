@@ -82,6 +82,8 @@
 		console.log(res);
 		if (res['error']["status"] === 1) {
 			error_n(res['error']['message']);
+            setTimeout(update_items_now, 5000);
+            return;
 		}
 		last = res['last_id'];
 		if (res["student"]["num"] >= 1) {
