@@ -5,18 +5,18 @@
 	echo $site_name;
 ?>
 <div class = "menu">
-<center class = 'subheader'>
+<div class = 'subheader' style="text-align: center;">
 	Electronic Library
-</center>
+</div>
 </div>
 <br>
 <script>
 reTitle("<?php echo _("->Главная"); ?>");
 </script>
-<center>
+<div style="text-align: center;">
 <a href = 'public/rating.php' class = 'button large success'>
     <?php echo _("Найти меня"); ?>
 </a>
-</center>
+</div>
 </body>
 </html>
