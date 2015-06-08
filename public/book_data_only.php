@@ -1,6 +1,6 @@
 <?php
   if(!isset($_GET['s1'])){
-    die;
+    elibDie();
   }
   require_once('../stuff/config.php');
 

@@ -3,7 +3,7 @@
 	if(!$HOSTER)
 	{
 		echo "<meta http-equiv='refresh' content='0; URL= auth.php' >";
-		die;
+		elibDie();
 	}
 	permission("hoster");
 ?>

@@ -117,7 +117,7 @@ function update_books($con, $get = false)
 
 if (!$IS_ADMIN) {
     echo json_error(_("Ошибка доступа"));
-    die;
+    elibDie();
 }
 if ($type == "i") {
     echo get_info($con);

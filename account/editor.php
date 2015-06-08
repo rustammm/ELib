@@ -18,12 +18,12 @@
 	// Checking info
 	if ($new != $confirm) {
 		error(_("Ошибка"), _("Несовпадение"));
-		die;
+		elibDie();
 	}
 	if ($type == "PIN") {
 		if (strlen($new) != 6) {
 			error(_("Ошибка"), _("Пин-код не из 6 цифр"));
-			die;
+			elibDie();
 		}		
 	}
 	$pass = md5(md5($pass));
@@ -34,7 +34,7 @@
 	$student = sql_select($con, "students", "id = ? and password = ?", array($sid, $pass));
 	if ($student ->num_rows < 1) {
 		error(_("Ошибка"), _("Пароль неверен"));
-		die;
+		elibDie();
 	}
 	
 	
@@ -45,7 +45,7 @@
 		success(_("Успешно"));
 	} else {
 		error(_("Ошибка"));
-		die;
+		elibDie();
 	}
 	
 

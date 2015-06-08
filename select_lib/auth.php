@@ -3,14 +3,14 @@
 	if($HOSTER)
 	{
 		echo "<meta http-equiv='refresh' content='0; URL= admin.php' >";
-		die;
+		elibDie();
 	}
 	permission("main");
 	if($_POST['sub']){
 		if($_POST['pass'] == $super_password){
 			$_SESSION['hoster'] = true;
 			echo "<meta http-equiv='refresh' content='0; URL= admin.php' >";
-			die;
+			elibDie();
 		}else{
 			error(_("Вы ввели неправильный пароль"));
 		}

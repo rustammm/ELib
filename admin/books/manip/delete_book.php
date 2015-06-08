@@ -5,7 +5,7 @@
 		$res = sql_delete($con, "books", "id = ?", array($bid));
 		if(!$res){
 			error(_("Ошибка"), _("Ошибка при удаление"));
-			die;
+			elibDie();
 		}else{
 			success(_("Успешно удалено"));
 		}

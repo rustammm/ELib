@@ -13,7 +13,7 @@
                         <h1> "._("Не выбран")." </h1>
                 </center>
             ";
-            die;            
+            elibDie();
         }
         
 	if(isset($_GET['id'])){

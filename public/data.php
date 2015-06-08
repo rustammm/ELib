@@ -7,7 +7,7 @@ function get_data($person_id, $con){  // student
 	$res = sql_select($con, "students", "id = ?", array($person_id));
 	if(!$res){
 		error(_("ОШИБКА"));
-		die;
+		elibDie();
 	}else{
 		if($res->num_rows > 0){
 			$row = $res->fetch_assoc();
@@ -21,7 +21,7 @@ function get_book_data($book_id, $con){
 	$res = sql_select($con, "books", "id = ?", array($book_id));
 	if(!$res){
 		error(_("ОШИБКА"));
-		die;
+		elibDie();
 	}else{
 		return $res->fetch_assoc();
 	}

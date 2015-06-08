@@ -11,7 +11,7 @@
 	$res = sql_select($con, "students", false, false, false, "ORDER BY points DESC");
 	if($res == false){
 			error(_("Ошибка"), _("Ошибка при подключении к MySQL"));
-			die;
+			elibDie();
 	}
 	$rows = $res->num_rows;
 	$last_p = -1;

@@ -5,7 +5,7 @@
 	require_once('../stuff/settings.php');
 	$con = mysqli_connect($mysql_server ,$mysql_username, $mysql_password , $database_name);
 	if($_GET['id'] == '')
-		die;
+		elibDie();
 	$id = intval($_GET['id']);
 	$query = "SELECT * FROM libraries WHERE id = $id";
 	$lib = mysqli_query($con, $query);

@@ -15,7 +15,7 @@ permission("super");
 		$res = sql_update($con, "books", $titles, $params, "serial1 = ?", array($id));
 		if(!$res){
 			error(_("Ошибка"));
-			die;
+			elibDie();
 		}else{
 			success(_("Успешно"));
 		}

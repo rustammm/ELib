@@ -9,7 +9,7 @@
 		$library_name = $_SESSION['school_name'];
 	}else{
 		echo "<meta http-equiv='refresh' content='0; url=$http_adress/select_lib'>";
-		die;
+		elibDie();
 	}
 	/* Permission Variables  */
 	

@@ -10,7 +10,7 @@
 		$res = mysqli_query($con, $sql);
 		if(!$res){
 			error(_("Ошибка") , _("Ошибка добавления библиотеки"));
-			die;
+			elibDie();
 		}
 		$pass = md5(md5("admin"));
 		$lib_id = mysqli_insert_id($con);
@@ -20,7 +20,7 @@
 		$res = mysqli_query($con, $sql);
 		if(!$res){
 			error(_("Ошибка"), _("Ошибка добавления пользователя"));
-			die;
+			elibDie();
 		}else{
 			success(_("Создан библиотекарь с Логином и Паролем: <b> admin </b>"));
 		}			

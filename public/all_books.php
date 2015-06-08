@@ -7,7 +7,7 @@
 		$res = sql_select($con, "books", false, false, "SELECT DISTINCT serial1");
 		if(!$res){
 			error(_("Ошибка"));
-			die;
+			elibDie();
 		}
 		$rows = $res->num_rows;
 		$col1 = "<td><b>"._("НАЗВАНИЕ")."</b></td>";
@@ -22,8 +22,10 @@
 		$col10 = "<td><b>"._("ЦЕНА")."</b></td>";
 		//$col11 = "<td><b>O1</b></td>";
 		$col12 = "<td><b>O1</b></td>";
+        $col13 = "<td><b>O2</b></td>";
 		if(!$SUPER_ADMIN){
 			$col12 = "";
+            $col13 = "";
 		}
 		echo "<p  class = 'subheader'><font color = 'orange'> $rows </font> "._("книг в нашей базе данных")." </p>
 		<table class='dataTable display cell-border sortable'>
@@ -60,7 +62,7 @@
 			}
 			$col10 = "<td>".$row['price']."</td>";
 			$col12 = "<td><a href = '../admin/books/manip/delete_book_s1.php?s1={$row['serial1']}' class = 'button danger'> "._("УДАЛИТЬ")." </a></td>";
-			//$col11 = "<td><a href = 'manip/edit_book.php?id=$id'> ИЗМЕНИТЬ </a></td>";
+            // $col13 = "<td><a href = '../admin/books/manip/edit_book.php?id=$id' class = 'button info'> "._("ИЗМЕНИТЬ")." </a></td>";
 			if(!$SUPER_ADMIN){
 				$col12 = "";
 			}

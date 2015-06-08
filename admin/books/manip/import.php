@@ -65,7 +65,7 @@
 <?php
 	$arr['students'] = array("name", "surname", "grade", "letter", "email", "password", "PIN", "points"); // ??
 	$arr['books'] = array("name", "serial1", "serial2" , "grade", "category", "lang", "price");
-	if(!$_POST['sub']){die;}
+	if(!$_POST['sub']){elibDie();}
 	/* VARIABLES */
 	if($_POST['table'] == "1")
 		$table = "students";
@@ -80,7 +80,7 @@
 			$row++;
 			if(!insert($con, $table, $arr[$table], $data)){
 				echo error(_("Ошибка"). "$row добавлено");
-				die;
+				elibDie();
 			}
 			debug($data, "Added");
 		}

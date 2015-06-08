@@ -101,7 +101,7 @@ function set_depts($from, $to, $con){
 	$res = sql_select($con, "books", "", "", false, "ORDER BY name");
 	if(!$res){
 		error(_("Ошибка"));
-		die;
+		elibDie();
 	}
 	while($row = $res->fetch_assoc()){
 		$date = strtotime($row['date_taken']);

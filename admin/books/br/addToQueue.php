@@ -81,24 +81,24 @@
 	
 	if(!$IS_ADMIN || $library_id != $info['library']) {     // IS ADMIN And if the book from his library
 		echo -2;
-		die;
+		elibDie();
 	}
 	$info['admin']['id'] = $SADMIN_ID;
 	
 	if (!exists($con, $type, $info)) {
 		echo -1;
-		die;
+		elibDie();
 	}
 	if (already_in($con, $type, $info)) {
 		echo 1;
-		die;
+		elibDie();
 	}
 	if (!del_stu_before($con)) {
 		echo 0;
 	}
 	if (!addToQuery($con, $type, $info)) {
 		echo 0;
-		die;
+		elibDie();
 	}
 	echo 1;	
 ?>

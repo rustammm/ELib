@@ -3,7 +3,7 @@
 	permission("main");
 	require_once('data.php');
 	if(!$_GET['s1'])
-		die;
+		elibDie();
 	$s1 = $_GET['s1'];
 	
 	 function echo_book_data($s1, $con){
@@ -14,7 +14,7 @@
 		$categ =  $data['category'];
 		$price = $data['price'];
 		$to_search = "$name $grade";
-		echo "<center><a href =  'from_kitap.php?name={$to_search}&s1={$s1}' class = 'button success span12 large' >"._("СКАЧАТЬ")."</a></center>";
+		// echo "<center><a href =  'from_kitap.php?name={$to_search}&s1={$s1}' class = 'button success span12 large' >"._("СКАЧАТЬ")."</a></center>";
 		
 	  }
 	
@@ -27,7 +27,7 @@
 		$res = sql_select($con, "books", "serial1 = ?", array($s1));
 		if(!$res){
 			error(_("Ошибка"));
-			die;
+			elibDie();
 		}
 		$rows = $res->num_rows;	
 		$col1 = "<td><b>"._("НАЗВАНИЕ")."</b></td>";

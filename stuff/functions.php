@@ -26,6 +26,12 @@
 		</div>
 		";
 	}
+
+    function elibDie() {
+        require_once("footer.php");
+        die;
+    };
+
 	function success($message_short){
 		echo "
 		<div class='isa_success'>
@@ -51,20 +57,20 @@
 		global $ADMIN, $SUPER_ADMIN, $HOSTER, $STUDENT;
 		if((($ADMIN && $name == "hoster") || ($ADMIN && $name == "super")) && !$HOSTER && !$SUPER_ADMIN ){
 			error(_("Ошибка доступа"), _("Вы не Администратор или не Библеотекарь +"));
-			die;
+			elibDie();
 		}
 		if($name == "hoster" && !$HOSTER){
 			error(_("Ошибка доступа"), _("Вы не Администратор"));
-			die;
+			elibDie();
 		}
 		if($HOSTER && $name != "hoster" && $name != "main" && !$ADMIN){
 			error(_("Ошибка доступа"), _("Вы не Библеотекарь"));
-			die;
+			elibDie();
 		}
 		if(!$HOSTER && !$ADMIN  && !$SUPER_ADMIN && !$STUDENT && $name != "main"){
 			menu("main");
 			error(_("Ошибка доступа"), _("Вы не вошли в систему"));
-			die;
+			elibDie();
 		}
 		if(!$STUDENT)
 		$name = "main";
@@ -224,7 +230,7 @@
 		
 		if(!$res){
 			error(_("Ошибка"), _("Ошибка при отправке истории"));
-			die;
+			elibDie();
 		}else{
 			success(_("История сохранена"));
 		}
@@ -235,7 +241,7 @@
 			$result = sql_select($con, $table, $where, $params);
 			if($result == false){
 				error(_("Ошибка"), _("Ошибка при при проверки на существование элемента"));
-				die;
+				elibDie();
 			}
 			if($result->num_rows > 0){
 				return true;
@@ -258,7 +264,7 @@
 			
 			if($result == false){
 				error(_("Ошибка"), _("Ошибка при добавлении книги в библиотеку"));
-				die;
+				elibDie();
 			}
 		}
 		$last_id = mysqli_insert_id($con);
@@ -269,7 +275,7 @@
 		$res = sql_select($con, "books", "serial1 = ?", array($book_s1));
 		if(!$res){
 			error(_("Ошибка"), _("Ошибка при попытке нахождения информации книге"));
-			die;
+			elibDie();
 		}else{
 			$res = $res->fetch_assoc();
 			return $res;
@@ -279,7 +285,7 @@
 		$res = sql_select($con, "books", "serial1 = ? and serial2 = ?", array($s1, $s2));
 		if(!$res){
 			error(_("Ошибка"), _("Ошибка при попытке нахождения информации книге"));
-			die;
+			elibDie();
 		}else{
 			return $res;
 		}
@@ -298,7 +304,7 @@
 		$res = sql_delete($con, "books", "serial1 = ?", array($s1));
 		if(!$res){
 			error(_("Ошибка"), _("Ошибка при удалении книги"));
-			die;
+			elibDie();
 		}else{
 			success(_("Успешно удалено"));
 		}
@@ -308,18 +314,18 @@
 		STUDENTS 				
 		####################
 	*/
-	function add_stu_db($con, $name, $surname, $grade, $letter, $password){
+	function add_stu_db($con, $name, $surname, $grade, $letter, $password, $email, $PIN){
 		if($id == ""){
-			$title_names = array("name", "surname", "grade", "letter", "password");
-			$params = array($name, $surname, $grade, $letter, $password);
+			$title_names = array("name", "surname", "grade", "letter", "password", "email", "PIN");
+			$params = array($name, $surname, $grade, $letter, $password, $email, $PIN);
 		}else{	
-			$title_names = array("name", "surname", "grade", "letter", "password", "id");
-			$params = array($name, $surname, $grade, $letter, $password, $id);
+			$title_names = array("name", "surname", "grade", "letter", "password","id", "email", "PIN");
+			$params = array($name, $surname, $grade, $letter, $password, $id, $email, $PIN);
 		}
 			$res = sql_insert($con, "students" ,$title_names, $params);
 			if(!$res){
 				error(_("Ошибка"), _("Ошибка при добавлении ученика"));
-				die;
+				elibDie();
 			}else{
 				success(_("Успешно добавлено"));
 			}
@@ -335,7 +341,7 @@
 		$res = sql_select($con, "students", "id = ?", array($person_id));
 		if(!$res){
 			error(_("Ошибка"), _("Ошибка при попытке нахождения информации об ученике"));
-			die;
+			elibDie();
 		}else{
 			if($res->num_rows > 0){
 				$row = $res->fetch_assoc();
@@ -358,7 +364,7 @@
 		$res = sql_select($con, "students", "", "", false, "ORDER By points DESC");
 		if($res == false){
 				error(_("Ошибка"), _("Ошибка при составлени рейтинга"));
-				die;
+				elibDie();
 		}
 		$last_p = -1;
 		$cnt = 0;

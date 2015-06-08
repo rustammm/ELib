@@ -11,7 +11,7 @@
 		$res = sql_select($con, "books", "student = ?", array($pid));
 		if(!$res){
 			error(_("Ошибка"));
-			die;
+			elibDie();
 		}else{
 			echo "
 			<table class='dataTable display cell-border sortable'>
@@ -75,7 +75,7 @@
 		// END Settings
 		if(!$res){
 			error(_("Ошибка"));
-			die;
+			elibDie();
 		}else{
 			echo "<table class='dataTable display cell-border sortable'>
 			<thead>

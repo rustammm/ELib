@@ -3,7 +3,7 @@
 	permission("main");
 	if($ADMIN == 1){
 		echo '<script>window.location.href = "index.php";</script>';
-		die;
+		elibDie();
 	}
 	if ($_POST['sub']){
 		$login = $_POST['login'];

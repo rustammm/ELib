@@ -36,7 +36,7 @@ if ($_POST['sub']){
 		$res = sql_select($con, 'users', 'name = ?', array($login));
 		if ($res->num_rows > 0) {
 			error (_("Ошибка"), _("Пользователь с таким логином уже существует!"));
-			die;
+			elibDie();
 		}
 		$res = sql_insert($con, 'users', array("name", "password", "status"), array($login, $pass, $status));
 		if($res){

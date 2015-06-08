@@ -5,7 +5,7 @@
 		$res = sql_delete($con, "students", "id = ?", array($sid));
 		if(!$res){
 			error(_("Ошибка"), _("Ошибка при удалении"));
-			die;
+			elibDie();
 		}else{
 			success(_("Успешно удалено"));
 		}

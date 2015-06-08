@@ -5,7 +5,7 @@ function show_students($con){
 	$res = sql_select($con, "students");
 	if(!$res){
 		error(_("Ошибка"));
-		die;
+		elibDie();
 	}
 	$rows = $res->num_rows;
 	$col1 = "<td><b>"._("ID")."</b></td>";

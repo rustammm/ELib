@@ -20,7 +20,7 @@
 		$res = sql_update($con, "students", $titles, $params, "id = ?", array($id));
 		if(!$res){
 			error(_("Ошибка"));
-			die;
+			elibDie();
 		}else{
 			success(_("Успешно"));
 		}
@@ -30,7 +30,7 @@
 		$sid = $_GET['id'];
 		if($sid <= 0){
 			echo "<div style= 'background: red'> "._("ОШИБКА")." </div> <br>";
-			die;
+			elibDie();
 		}
 		$data = get_data($sid, $con);
 		$sname = $data['name'];

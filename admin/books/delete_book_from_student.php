@@ -7,7 +7,7 @@
 		$result = sql_update($con, "books", array("student", "date_taken"), array($id, $day), "serial1 = ? and serial2 = ?", array($serial1, $serial2));
 		if($result == false){
 			error("Ошибка");
-			die;
+			elibDie();
 		}else{
 			success("Успешно");
 		}
@@ -28,7 +28,7 @@
 		$rows = $result->num_rows;
 		if($rows <= 0){
 			error("Такой книги нет");
-			die;
+			elibDie();
 		}
 		// finding book name and owner
 		$row = $result->fetch_assoc();
@@ -36,13 +36,13 @@
 		$owner = $row["student"];
 		if($owner != 0){
 			error("КНИГА НАХОДИТСЯ У ДРУГОГО УЧЕНИКА С id : $owner");
-			die;
+			elibDie();
 		}
 		$today = date("d F Y H:i");
 		// end of finding 
 		if(!is_in_db("students",  "id = ?", array($stu), $con)){
 			error("ТАКОГО УЧЕНИКА НЕТ");
-			die;
+			elibDie();
 		}
 		update_db(0, $s1, $s2, $today, $con);
 		put_in_history($con, $stu, "Вы сдали в библиотеку книгу с СН : $s1 / $s2 и названием = $book_name", "Книга возвращена");	
