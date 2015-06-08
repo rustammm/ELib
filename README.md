@@ -11,5 +11,5 @@ Elib - Electronic Library
   - Веб сервер (Apache, Nginx или др.)
   - PHP 5.4 +
   - MySQL
-  - mysqlnd (mysql native driver)    
-  - gettext
+  - mysqlnd (mysql native driver)
+  - gettext (не обязательно)
